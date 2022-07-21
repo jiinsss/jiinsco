@@ -9,16 +9,12 @@ public class TwoController {
 
 	@RequestMapping("/mytest.komi")
 	public @ResponseBody  String test() {
-		String msg="<h1> rain rain 10:15  </h1>";
+		String msg="<h1> snow coffee cake 2:54  4:12  </h1>";
 		return msg ;
 	}//end
 	@RequestMapping("/kakaowrite.komi")
-	public  String guest_write() {
+	public  String guestinsert() {
 			return "guestWrite" ;
-	}//end
-	@RequestMapping("/summerwrite.komi")
-	public  String summer_write() {
-			return "write" ;
 	}//end
 	
 }//class END
